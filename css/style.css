@@ -90,7 +90,7 @@ body {
   left: 12.5%;
   top: 27px;
   color: #000;
-  font: 1.5em 'Bold', 'Myriad Pro', sans-serif;
+  font-size: 0;
   z-index: 10;
   transition-duration: .3s;
 }
@@ -171,8 +171,8 @@ body {
 .member a:first-child::after {
   content: '';
   position: absolute;
-  left: 99.95%;
-  top: 0;
+  bottom: 0;
+  right: -25px;
   border-top: 101px solid #2fab6c;
   border-right: 25px solid transparent;
   clip-path: polygon(0 0, 25px 0, 0px 101px, 0 0);
@@ -950,6 +950,7 @@ body {
 }
 
 .footer-flexy-box .logo a {
+  display: inline-flex;
   opacity: .5;
   position: relative;
   left: 0;
