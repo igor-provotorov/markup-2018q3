@@ -87,15 +87,6 @@ body {
 
 .logo a {
   z-index: 10;
-}
-
-.logo p {
-  z-index: 9;
-  margin: 1px 0 0 12px;
-}
-
-.logo a,
-.logo p {
   position: absolute;
   left: 12.5%;
   top: 27px;
