@@ -93,7 +93,7 @@ body {
   font: 1.5em 'Bold', 'Myriad Pro', sans-serif;
   z-index: 10;
   transition-duration: .3s;
-  }
+}
 
 .header-flexy-box .logo a:hover {
   opacity: 0.7;
