@@ -166,7 +166,7 @@ body {
 .member a:first-child::after {
   content: '';
   position: absolute;
-  left: 100%;
+  left: 99.95%;
   top: 0;
   border-top: 101px solid #2fab6c;
   border-right: 25px solid transparent;
